@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphdmExMjMiLCJpZCI6IjYwM2E5M2E3ZTA3OTAxMGYzODA4OTE5YyIsImlhdCI6MTYxNDQ1Nzk2MH0.9T7BiL_Mdc8P22EAVGt-o2CK_Snh3C3NdJjTBTEWx7o
+
+{
+    "title": "magenta",
+    "author": "java",
+    "url": "https://blogs.cs/8",
+    "likes": 4,
+    "userId": "603a9386e079010f3808919c"
+}
